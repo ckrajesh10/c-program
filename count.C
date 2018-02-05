@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -16,3 +15,4 @@ printf("total digits:%d",count);
 getch();
 return o;
 }
+
