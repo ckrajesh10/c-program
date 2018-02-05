@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
     int n, i, sum = 0;
     printf("Enter a positive integer: ");
@@ -10,6 +10,7 @@ void main()
         sum += i;  
     }
     printf("Sum = %d",sum);
+    return 0;
     getch();
     
 }
