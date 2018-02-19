@@ -7,6 +7,6 @@ int main(void)
     for(i=1;i<=n;i++)
 { fact=fact*i;}
 printf("%d",fact);
-	return 0;\
+	return 0;
  getch();
 }
