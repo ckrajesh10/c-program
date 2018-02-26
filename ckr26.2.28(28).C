@@ -13,4 +13,5 @@ for(i=0;i<n;i++)
 printf("\n %d %d",a[i],i);
 }
 return 0;
+ getch();
 }
