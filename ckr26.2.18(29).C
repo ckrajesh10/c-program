@@ -10,4 +10,5 @@ scanf("%d",&m);
 tm=(h*60)+m;
 printf("total minutes:\t%d",tm);
 return 0;
+  getch();
 }
