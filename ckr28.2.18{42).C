@@ -15,4 +15,5 @@ count++;
 }
 printf("\n Number of words are: %d",count+1);
 getch();
+  return 0;
 }
