@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include<conio.h>
+
+int main(void) {
+	int a[1000],i,j,t,lim;
+	scanf("%d",&lim);
+	for(i=0;i<lim;i++)
+	scanf("%d",&a[i]);
+	for(i=0;i<lim;i++)
+	{
+		for(j=0;j<lim;j++)
+		{
+			if(a[i]>a[j])
+			{
+				t=a[j];
+				a[j]=a[i];
+				a[i]=t;
+			 }
+			
+		}
+	}
+	printf("%d\t%d",a[lim-1],a[0]);
+	return 0;
+getch();
+}
